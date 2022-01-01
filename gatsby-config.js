@@ -4,7 +4,6 @@ module.exports = {
     title: "Personal-Site-V2",
   },
   plugins: [
-    'gatsby-plugin-image',
     {
       resolve: 'gatsby-source-prismic',
       options: {
