@@ -87,7 +87,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Sammy Guergachi
         <br />
-        <span style={headingAccentStyles}>— My Portfolio site! </span>
+        <span style={headingAccentStyles}>— My Preview site! </span>
       </h1>
       <p style={paragraphStyles}>
         <code style={codeStyles}>Work In Progress...</code>{" "}
