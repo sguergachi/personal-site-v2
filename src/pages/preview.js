@@ -83,7 +83,7 @@ const badgeStyle = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Preview Page</title>
       <h1 style={headingStyles}>
         Sammy Guergachi
         <br />
