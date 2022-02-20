@@ -2,6 +2,9 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+const linkResolver = require('./linkResolver.js').linkResolver
+
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
