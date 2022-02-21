@@ -1,0 +1,18 @@
+@import "../styles/global.css";
+
+.dot {
+  animation-name: animateContent;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-out-circ;
+  animation-duration: 2s;
+}
+
+@keyframes animateContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -38,7 +38,7 @@ const Layout = ({ pageTitle, children }) => {
           <div className="relative select-none">
             <h1
               className="text-slate-700 opacity-10 absolute top-20 left-1/2 transform  -translate-y-1/2 -translate-x-1/2 
-            lg:text-7xl sm:text-6xl text-center"
+           text-7xl text-center"
             >
               {pageTitle}
             </h1>

@@ -3,6 +3,7 @@ import logo from "../images/Icon.svg";
 import { StaticImage } from "gatsby-plugin-image";
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
+import { dot } from "./index.module.css";
 
 // markup
 const IndexPage = () => {
@@ -20,11 +21,11 @@ const IndexPage = () => {
         <span className="text-amber-200">My name is </span>
         <br />
         <span className="text-5xl text-blue-200">
-          <span className="text-blue-500">S</span>ammy
+          <span className="text-blue-500 ">S</span>ammy
           <span className="text-blue-500"> G</span>uer
-          <i aria-hidden="true" className="text-amber-200 m-1 align-middle text-xs fa-solid fa-circle" />
+          <i className="text-amber-200 m-1 hidden transition-all ease-in-out duration-350  lg:inline lg:opacity-50 opacity-0 align-middle text-xs fa-solid fa-circle" />
           ga
-          <i className="text-amber-200 m-1 align-middle text-xs fa-solid fa-circle" />
+          <i className="text-amber-200 m-1  opacity-50 align-middle text-xs fa-solid fa-circle" />
           chi
         </span>
         <br />
