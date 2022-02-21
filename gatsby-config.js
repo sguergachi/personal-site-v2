@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.svg",
+        icon: "./src/images/icon.svg",
       },
     },
     "gatsby-plugin-postcss",
