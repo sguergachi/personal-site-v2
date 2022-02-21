@@ -33,3 +33,7 @@
 .nav-link-text:hover {
   @apply text-amber-200 underline;
 }
+
+.nav-link-current {
+  @apply text-amber-200;
+}

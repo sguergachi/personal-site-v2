@@ -5,6 +5,7 @@ import {
   navLinks,
   navLinkItem,
   navLinkText,
+  navLinkCurrent,
 } from "./layout.module.css";
 import Root from "./root";
 import logo from "../images/Icon.svg";
@@ -17,17 +18,29 @@ const Layout = ({ pageTitle, children }) => {
         <nav className="ml-5">
           <ul className={navLinks}>
             <li className={navLinkItem}>
-              <Link className={navLinkText} to="/">
+              <Link
+                activeClassName={navLinkCurrent}
+                className={navLinkText}
+                to="/"
+              >
                 Who?
               </Link>
             </li>
             <li className={navLinkItem}>
-              <Link className={navLinkText} to="/what">
+              <Link
+                activeClassName={navLinkCurrent}
+                className={navLinkText}
+                to="/what"
+              >
                 What?
               </Link>
             </li>
             <li className={navLinkItem}>
-              <Link className={navLinkText} to="/why">
+              <Link
+                activeClassName={navLinkCurrent}
+                className={navLinkText}
+                to="/why"
+              >
                 Why?
               </Link>
             </li>
@@ -55,7 +68,7 @@ const Layout = ({ pageTitle, children }) => {
           </div>
           <div>
             <div className="md:text-xl text-lg font-medium text-black">
-              Website Construction in Progress
+              Website Under Construction
             </div>
             <p className="text-slate-500">I'm working on it!</p>
           </div>
