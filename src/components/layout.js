@@ -12,7 +12,7 @@ import logo from "../images/Icon.svg";
 const Layout = ({ pageTitle, children }) => {
   return (
     <Root>
-      <div className={container}>
+      <div  className={container}>
         <title>{pageTitle}</title>
         <nav class="ml-5">
           <ul className={navLinks}>
@@ -39,12 +39,12 @@ const Layout = ({ pageTitle, children }) => {
           </div>
         </main>
         
-        <div class="absolute left-1/2 transform -translate-x-1/2 bottom-10  p-6 max-w-md mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+        <div class="absolute left-1/2 transform -translate-x-1/2 bottom-10  lg:p-6 sm:p-5 p-3 w-10/12 max-w-md mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
         <div class="shrink-0">
           <img class="h-12 w-12" src={logo} />
         </div>
         <div>
-          <div class="text-xl font-medium text-black">
+          <div class="md:text-xl text-lg font-medium text-black">
             Website Construction in Progress
           </div>
           <p class="text-slate-500">I'm working on it!</p>

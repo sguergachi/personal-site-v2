@@ -3,7 +3,7 @@
 .container {
   margin: auto;
   height: 100vh;
-  max-width: 45vw;
+  @apply sm:w-10/12 lg:w-1/2;
   background-color: var(--light-blue);
   font-family: "Josefin Sans", sans-serif;
   color: white;
