@@ -22,8 +22,9 @@ const IndexPage = () => {
         <br />
         <span className="text-5xl text-blue-200">
           <span className="text-blue-500 ">S</span>ammy
+          <br className="lg:hidden" />
           <span className="text-blue-500"> G</span>uer
-          <i className="text-amber-200 m-1 hidden transition-all ease-in-out duration-350  lg:inline lg:opacity-50 opacity-0 align-middle text-xs fa-solid fa-circle" />
+          <i className="text-amber-200 m-1 opacity-50 align-middle text-xs fa-solid fa-circle" />
           ga
           <i className="text-amber-200 m-1  opacity-50 align-middle text-xs fa-solid fa-circle" />
           chi
