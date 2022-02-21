@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Sammy Guergachi">
       <title>Home Page</title>
-      <div class="text-2xl text-center">
+      <div class="text-2xl text-center pt-4">
         {" "}
         My name is
         <br />
