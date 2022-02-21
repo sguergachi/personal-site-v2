@@ -37,7 +37,7 @@ const Layout = ({ pageTitle, children }) => {
           {/* Background Text Decor */}
           <div className="relative select-none">
             <h1
-              className="text-slate-700 opacity-10 absolute top-20 left-1/2 transform  -translate-y-1/2 -translate-x-1/2 
+              className="text-slate-700 opacity-20 absolute top-20 left-1/2 transform  -translate-y-1/2 -translate-x-1/2 
            text-7xl text-center"
             >
               {pageTitle}
