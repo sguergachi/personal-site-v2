@@ -1,49 +1,51 @@
 import * as React from "react";
 import logo from "../images/Icon.svg";
 import { StaticImage } from "gatsby-plugin-image";
-import { Link } from "gatsby";
+import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
-import {faCircle} from "@fortawesome/fontawesome-svg-core"
 
 // markup
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Sammy Guergachi">
-      <script
-        href="https://kit.fontawesome.com/f5589a7fb0.js"
-        crossorigin="anonymous"
-      ></script>
+    <Layout pageTitle="Who?">
+      <Helmet>
+        <script
+          src="https://kit.fontawesome.com/f5589a7fb0.js"
+          crossorigin="anonymous"
+        ></script>
+      </Helmet>
 
-      <title>Home Page</title>
-      <div class="text-2xl text-center pt-4">
-        {" "}
-        My name is
+      <title>Sammy Guergachi</title>
+      <div className="text-2xl text-center pt-4">
+        <span className="text-amber-200">My name is </span>
         <br />
-        <span className="text-3xl text-blue-200">
-          <span class="text-blue-500">S</span>ammy
-          <span class="text-blue-500"> G</span>uer
-          <i class="text-cyan-100 m-1 fa-solid fa-circle"/>ga
-          <i class="text-cyan-100 m-1 fa-solid fa-circle"/>chi
+        <span className="text-5xl text-blue-200">
+          <span className="text-blue-500">S</span>ammy
+          <span className="text-blue-500"> G</span>uer
+          <i aria-hidden="true" className="text-amber-200 m-1 align-middle text-xs fa-solid fa-circle" />
+          ga
+          <i className="text-amber-200 m-1 align-middle text-xs fa-solid fa-circle" />
+          chi
         </span>
         <br />
         <span className="italic text-blue-500 text-xl">
-          I like designing software that helps people enjoy getting stuff done.
+          I design products that enable people to enjoy creating.
         </span>
         <br />
-        <div class="p-10 inline-block">
+        <div className="p-10 inline-block">
           <a
             href="mailto: sguergachi@gmail.com"
-            class="m-4 text-cyan-100 fa-2x fa fa-envelope"
+            className="m-4 text-blue-100 fa-2x fa fa-envelope"
             aria-hidden="true"
           ></a>
           <a
             href="http://www.twitter.com/sguergachi"
-            class="m-4 text-cyan-100 fa-2x fa fa-twitter"
+            className="m-4 text-blue-100 fa-2x fa fa-twitter"
             aria-hidden="true"
           ></a>
           <a
             href="http://www.github.com/sguergachi"
-            class="m-4 text-cyan-100 fa-2x fa fa-github"
+            className="m-4 text-blue-100 fa-2x fa fa-github"
             aria-hidden="true"
           ></a>
         </div>
