@@ -1,0 +1,13 @@
+@import "../styles/global.css";
+
+.container {
+  background-repeat: repeat 0 0;
+  background-image: url("../images/diamond-web.png");
+  background-color: var(--light-blue);
+
+  font-family: "Josefin Sans", sans-serif;
+  border-right: 2px;
+  border-left: 2px;
+  border-style: solid;
+  border-color: var(--light-blue);
+}
