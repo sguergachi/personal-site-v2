@@ -30,7 +30,7 @@ const IndexPage = () => {
           chi
         </span>
         <br />
-        <span className="italic text-blue-500 text-xl">
+        <span className="italic text-blue-500 text-xl m-4">
           I design products that enable people to enjoy creating.
         </span>
         <br />

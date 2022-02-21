@@ -35,9 +35,9 @@ const Layout = ({ pageTitle, children }) => {
         </nav>
         <main>
           {/* Background Text Decor */}
-          <div className="relative select-none">
+          <div className="relative select-none ">
             <h1
-              className="text-slate-700 opacity-20 absolute top-20 left-1/2 transform  -translate-y-1/2 -translate-x-1/2 
+              className="z-0 text-slate-700 opacity-20 absolute top-20 left-1/2 transform  -translate-y-1/2 -translate-x-1/2 
            text-6xl lg:text-7xl text-center"
             >
               {pageTitle}
@@ -45,10 +45,11 @@ const Layout = ({ pageTitle, children }) => {
           </div>
 
           {/* Content */}
-          <div className="select-auto mt-10">{children}</div>
+          <div className="select-auto mt-10 relative z-10">{children}</div>
         </main>
 
-        <div className="select-none absolute left-1/2 transform -translate-x-1/2 bottom-10  lg:p-6 sm:p-5 p-3 w-10/12 max-w-md mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+        {/* Website in Progress */}
+        <div className="select-none absolute left-1/2 transform -translate-x-1/2 bottom-10 z-50 lg:p-6 sm:p-5 p-3 w-10/12 max-w-md mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
           <div className="shrink-0">
             <img className="h-12 w-12" src={logo} />
           </div>

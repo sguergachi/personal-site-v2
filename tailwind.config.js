@@ -1,5 +1,6 @@
 module.exports = {
   darkmode: "media",
+  important: true,
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     fontSize: {
