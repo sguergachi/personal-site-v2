@@ -1,4 +1,8 @@
 import * as React from "react";
+import logo from "../Images/Icon.svg";
+import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 // styles
 const pageStyles = {
@@ -62,38 +66,30 @@ const docLink = {
   color: "#8954A8",
 };
 
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-};
-
-
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <Layout pageTitle="Sammy Guergachi">
       <title>Home Page</title>
-      <h1 style={headingStyles}>
+      <h1 className="font-bold underline">
         Sammy Guergachi
-        <br />
-        <span style={headingAccentStyles}>— My Portfolio site! </span>
+        <br /> <span style={headingAccentStyles}>— My Portfolio site! </span>
       </h1>
+      <Link to="/who">Who?</Link>
       <p style={paragraphStyles}>
         <code style={codeStyles}>Work In Progress...</code>{" "}
       </p>
-
-    </main>
+      <button class="bg-sky-600 hover:bg-sky-700 ...">Save changes</button>
+      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+        <div class="shrink-0">
+          <img class="h-12 w-12" src={logo} />
+        </div>
+        <div>
+          <div class="text-xl font-medium text-black">ChitChat</div>
+          <p class="text-slate-500">You have a new message!</p>
+        </div>
+      </div>
+    </Layout>
   );
 };
 

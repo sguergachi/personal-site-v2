@@ -26,9 +26,10 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/Images/icon.svg",
       },
     },
+    "gatsby-plugin-postcss",
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -36,9 +37,9 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: "./src/Images/",
       },
-      __key: "images",
+      __key: "Images",
     },
     {
       resolve: "gatsby-source-filesystem",
