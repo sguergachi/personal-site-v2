@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
     <Root>
       <div className={container}>
         <title>{pageTitle}</title>
-        <nav class="text-center">
+        <nav class="ml-5">
           <ul className={navLinks}>
             <li className={navLinkItem}>
               <Link className={navLinkText} to="/">

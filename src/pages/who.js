@@ -6,14 +6,9 @@ const WhoPage = () => {
   return (
     <Layout pageTitle="Who?">
       <title>Who is Sammy</title>
-      <h1>
-        Sammy Guergachi
-        <br />
-        <span>— My Preview site! </span>
-      </h1>
-      <p>
+      <p className="text-center">
         Hi There, My name is Sammy!
-        
+
       </p>
     </Layout>
   );
