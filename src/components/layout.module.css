@@ -3,7 +3,7 @@
 .container {
   margin: auto;
   height: 100vh;
-  @apply sm:w-10/12 lg:w-1/2;
+  @apply w-10/12 lg:w-1/2;
   background-color: var(--light-blue);
   font-family: "Josefin Sans", sans-serif;
   color: white;
@@ -13,17 +13,21 @@
   border-color: var(--highlight-blue);
 }
 
-.heading {
-  color: rebeccapurple;
-}
 .nav-links {
   display: flex;
   list-style: none;
   padding-left: 0;
+  justify-content: center;
 }
 .nav-link-item {
   padding-right: 2rem;
+  margin-top: 1em;
+  align-items: center;
 }
 .nav-link-text {
-  @apply text-cyan-400;
+  @apply text-amber-400 drop-shadow;
+}
+
+.nav-link-text:hover {
+  @apply text-amber-200 underline;
 }
