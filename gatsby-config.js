@@ -23,12 +23,12 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        icon: "src/images/icon.svg",
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-manifest",
+    //   // options: {
+    //   //   // icon: "src/images/icon.svg",
+    //   // },
+    // },
     "gatsby-plugin-postcss",
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
