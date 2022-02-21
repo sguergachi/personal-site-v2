@@ -29,7 +29,7 @@ const Layout = ({ pageTitle, children }) => {
         </nav>
         <main>
           <div class="relative select-none -z-0">
-            <h1 class="text-slate-700  opacity-10 absolute top-20 left-1/2 transform  -translate-y-1/2 -translate-x-1/2 lg:text-8xl sm:text-6xl text-center">
+            <h1 class="text-slate-700 opacity-10 absolute top-20 left-1/2 transform  -translate-y-1/2 -translate-x-1/2 lg:text-8xl sm:text-6xl text-center">
               {pageTitle}
             </h1>
           </div>

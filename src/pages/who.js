@@ -12,7 +12,8 @@ const WhoPage = () => {
         <span>— My Preview site! </span>
       </h1>
       <p>
-        <code>Work In Progress...</code>{" "}
+        Hi There, My name is Sammy!
+        
       </p>
     </Layout>
   );
