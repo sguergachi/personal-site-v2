@@ -22,7 +22,7 @@ const IndexPage = () => {
         </span>
       </div>
 
-      <div class="absolute translate-x-1/2 bottom-10 p-6 max-w-md mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+      <div class="absolute left-1/2 transform -translate-x-1/2 bottom-10  p-6 max-w-md mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
         <div class="shrink-0">
           <img class="h-12 w-12" src={logo} />
         </div>
