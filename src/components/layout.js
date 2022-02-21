@@ -7,7 +7,7 @@ import {
   navLinkText,
 } from "./layout.module.css";
 import Root from "./root";
-import logo from "../Images/Icon.svg";
+import logo from "../images/Icon.svg";
 
 const Layout = ({ pageTitle, children }) => {
   return (

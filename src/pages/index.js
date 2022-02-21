@@ -1,5 +1,5 @@
 import * as React from "react";
-import logo from "../Images/Icon.svg";
+import logo from "../images/Icon.svg";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
