@@ -22,8 +22,8 @@ const IndexPage = () => {
         <span className="text-3xl text-blue-200">
           <span class="text-blue-500">S</span>ammy
           <span class="text-blue-500"> G</span>uer
-          <faCircle class="text-cyan-100 m-1 fa-solid fa-circle"/>ga
-          <faCircle class="text-cyan-100 m-1 fa-solid fa-circle"/>chi
+          <i class="text-cyan-100 m-1 fa-solid fa-circle"/>ga
+          <i class="text-cyan-100 m-1 fa-solid fa-circle"/>chi
         </span>
         <br />
         <span className="italic text-blue-500 text-xl">
