@@ -7,6 +7,7 @@ import { dot } from "./index.module.css";
 
 // markup
 const IndexPage = () => {
+  console.log({ dot });
   return (
     <Layout pageTitle="Who?">
       <Helmet>
@@ -20,11 +21,11 @@ const IndexPage = () => {
       <div className="text-2xl text-center pt-4">
         <span className="text-amber-200">My name is </span>
         <br />
-        <span className="text-5xl text-blue-200">
-          <span className="text-blue-500 ">S</span>ammy
+        <span className={[dot, "text-5xl text-blue-200"].join(" ")}>
+          <span className="text-blue-500">S</span>ammy
           <br className="lg:hidden" />
           <span className="text-blue-500"> G</span>uer
-          <i className="text-amber-200 m-1 opacity-50 align-middle text-xs fa-solid fa-circle" />
+          <i className={dot} />
           ga
           <i className="text-amber-200 m-1  opacity-50 align-middle text-xs fa-solid fa-circle" />
           chi
