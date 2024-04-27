@@ -25,7 +25,7 @@ const IndexPage = () => {
           <span className="text-blue-500">S</span>ammy
           <br className="lg:hidden" />
           <span className="text-blue-500"> G</span>uer
-          <i className={dot} />
+          <i className={[dot, "text-amber-200 m-1 opacity-50 align-middle text-xs fa-solid fa-circle"].join(" ")} />
           ga
           <i className="text-amber-200 m-1  opacity-50 align-middle text-xs fa-solid fa-circle" />
           chi

@@ -1,8 +1,7 @@
 @import "../styles/global.css";
 
 .dot {
-  /* @apply text-amber-200 m-1 opacity-50 align-middle text-xs fa-solid fa-circle; */
-  
+
   animation-name: animateContent;
   animation-iteration-count: 1;
   animation-direction: normal;
