@@ -2,7 +2,6 @@ require("dotenv").config({
   path: `.env`,
 })
 
-const linkResolver = require('./linkResolver.js').linkResolver
 
 
 module.exports = {
